@@ -43,7 +43,7 @@ a {
   padding-bottom: 100px;
 }
 
-.text-container {
+.section1 .text-container {
   width: 400px;
   padding-left: 250px;
   padding-right: 100px;
@@ -57,7 +57,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-p {
+.section1 .text-container p {
   color: #e5e7eb;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 0px;
@@ -75,4 +75,99 @@ button {
 
 img {
   max-width: 400px;
+}
+
+.section2 h1 {
+  color: #1f2937;
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.box img {
+  max-width: 170px;
+  padding: 25px;
+  justify-content: center;
+}
+
+.box p {
+  color: grey;
+  max-width: 170px;
+  padding-left: 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section3 {
+  background-color: #d4d7db;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  width: 500px;
+}
+
+.section3 p {
+  color: black;
+  font-size: x-large;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote-container h3 {
+  padding-left: 275px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.call-to-action {
+  height: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  border-radius: 20px;
+}
+
+.call-to-action .text-container h3 {
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: white;
+}
+
+.section4 .text-container p {
+  color: #e5e7eb;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+}
+
+.call-to-action button {
+  border: 2px solid white;
+  width: 150px;
+  height: 40px;
+  font-size: 14pt;
+}
+
+.footer {
+  background-color: #1f2937;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d4d7db;
+  font-size: larger;
 }
